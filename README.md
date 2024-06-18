@@ -16,7 +16,7 @@ You can click the Preview link to take a look at your changes.
 # 📊 GitHub Stats:
 <!--
 ![](https://github-readme-stats.vercel.app/api?username=baltej223&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
--->
+
 ![](https://github-readme-streak-stats.herokuapp.com/?user=baltej223&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=baltej223&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
@@ -24,8 +24,3 @@ You can click the Preview link to take a look at your changes.
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=baltej223&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
-
-### 😂 Random Dev Meme
-<img src='https://memer-new.vercel.app/' style="height: 400px;"/>
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
