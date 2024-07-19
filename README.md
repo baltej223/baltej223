@@ -7,7 +7,7 @@
 baltej223/baltej223 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
+![](https://komarev.com/ghpvc/?username=baltej223&color=blueviolet) <!--https://github.com/antonkomarev/github-profile-views-counter-->
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/baltej_223) <!--[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/baltej21) -->
 
