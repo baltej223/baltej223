@@ -1,5 +1,5 @@
 # Hello
-- 👋 Hi, I’m Baltej singh
+- 👋 Hi, I’m Baltej singh, sudying CSE
 - 👀 I’m interested in 
 - 🌱 I’m currently learning backend😜
 - ✨ take a look at my repos - [Click](https://github.com/baltej223?tab=repositories)
