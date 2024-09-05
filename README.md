@@ -1,6 +1,6 @@
 # Hello
 - 👋 Hi, I’m Baltej singh
-- 📚 Curretly, I am studing CSE from Thapar Institute of Technology
+- 📚 Curretly, I am studing CSE in Thapar Institute of Technology
 - 👀 I’m interested in 
 - 🌱 I’m currently learning backend😜
 - ✨ take a look at my repos - [Click](https://github.com/baltej223?tab=repositories)
