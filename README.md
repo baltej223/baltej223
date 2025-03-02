@@ -4,8 +4,8 @@
 
 <!--I could had also put this in yaml code block for more creativity-->
 - 📚 Curretly, I am studing CSE in Thapar Institute of Technology
-- 👀 I’m interested in coding, coding challenges, codingprojects and network
-- 🌱 I’m currently learning **DevOps, AI/ML, Cybersecurity**
+- 👀 I’m interested in coding, coding challenges, coding projects and networking
+- 🌱 I’m currently learning **DevOps, AI/ML, Cybersecurity and WebDev**
 - 💬 Ask me about **React, Next, JS, python, web developement**
 - ✨ take a look at my repos - [Click](https://github.com/baltej223?tab=repositories)
 - Take a look at my Docs: [click it](https://docs-phi-rust.vercel.app/)
