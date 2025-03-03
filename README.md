@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Baltej Singh</h1>
-<h3 align="center">A passionate Fullstack Developer from India, Currently perusing CS in Thapar Institute, Patiala, India</h3>
+<h3 align="center">A passionate Fullstack Developer from India, Currently pursuing CS in Thapar Institute, Patiala, India</h3>
 <p align="right"> <img src="https://komarev.com/ghpvc/?username=baltej223&label=Profile%20views&color=0e75b6&style=flat" alt="baltej223" /> </p>
 
 <!--I could had also put this in yaml code block for more creativity-->
