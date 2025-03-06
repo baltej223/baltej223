@@ -48,7 +48,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?theme=onedark&username=baltej223" alt="baltej223" /></a> </p>
 
-![Snake animation](https://github.com/baltej223/baltej223/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/baltej223/baltej223/refs/heads/output/snake.svg)
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&section=footer&textBg=false)
 
