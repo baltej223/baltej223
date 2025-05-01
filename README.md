@@ -101,6 +101,7 @@
 
 ![Snake animation](https://raw.githubusercontent.com/baltej223/baltej223/refs/heads/output/snake.svg)
 
+<!--
 ```Markdown
 ╔══════════════════════════════════════════════╗
 ║                                              ║
@@ -112,6 +113,7 @@
 ║                                              ║
 ╚══════════════════════════════════════════════╝
 ```
+-->
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&section=footer&textBg=false)
 
