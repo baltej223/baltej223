@@ -91,9 +91,18 @@
 ![](https://github-profile-trophy.vercel.app/?username=baltej223&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
 -->
 
+<!--
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark" alt="baltej223" /></p>
-
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=baltej223&show_icons=true&locale=en&theme=onedark" alt="baltej223" /></p>
+-->
+
+<a href="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark&hide=Dart,CMake&langs_count=8" />
+</a>
+<a href="https://github-readme-stats.vercel.app/api?username=baltej223&show_icons=true&locale=en&theme=onedark">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=baltej223&show_icons=true&locale=en&theme=onedark&rank_icon=github" />
+</a>
+
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?theme=onedark&username=baltej223" alt="baltej223" /></a> </p>
 
