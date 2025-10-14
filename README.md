@@ -97,7 +97,7 @@
 -->
 
 <a href="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark&hide=Dart,CMake,python&langs_count=8" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark&hide=Dart,CMake,python,G-Code&langs_count=8" />
 </a>
 <a href="https://github-readme-stats.vercel.app/api?username=baltej223&show_icons=true&locale=en&theme=onedark">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=baltej223&show_icons=true&locale=en&theme=onedark&rank_icon=github" />
