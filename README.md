@@ -24,7 +24,7 @@
 <p><a href="https://www.baltej.me/blog">
     <img src="https://baltej.me/icon.png" height="40" />
 </a>
-<a href="https://www.posts.baltej.me/">
+<a href="https://posts.baltej.me/">
     <img src="https://baltej.me/icon.png" height="40" />
 </a></p>
 
