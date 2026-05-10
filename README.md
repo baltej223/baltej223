@@ -85,27 +85,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vim/vim-original.svg" height="50" alt="Vim" />
 </div>
 
-<!--
-# 📊 GitHub Stats:
-
-![](https://github-readme-stats.vercel.app/api?username=baltej223&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=baltej223&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=baltej223&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=baltej223&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
--->
-
-<!--
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark" alt="baltej223" /></p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=baltej223&show_icons=true&locale=en&theme=onedark" alt="baltej223" /></p>
--->
 
 ## Stats:
 
 <div align="center">
-  <a href="https://github-readme-stats-eta-kohl-56.vercel.app/">
+  <a href="https://github.com/baltej223/github-readme-stats">
     <img height="200" src="https://github-readme-stats-eta-kohl-56.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=pie&theme=onedark&exclude_repo=patient_management,iot_ccs_project&langs_count=8&stats_format=bytes" />
   </a>
   <a href="https://git.io/streak-stats">
