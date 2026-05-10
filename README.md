@@ -104,11 +104,14 @@
 
 ## Stats:
 
-<a href="https://api.baltej.me/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=pie&theme=onedark&exclude_repo=patient_management,iot_ccs_project&langs_count=8&stats_format=bytes">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=compact&theme=onedark&hide=Dart,CMake,python,G-Code&langs_count=8" />
-</a>
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=baltej223&theme=tokyonight-duo" alt="GitHub Streak" /></a>
-
+<div align="center">
+  <a href="https://github-readme-stats-eta-kohl-56.vercel.app/">
+    <img height="200" src="https://github-readme-stats-eta-kohl-56.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=pie&theme=onedark&exclude_repo=patient_management,iot_ccs_project&langs_count=8&stats_format=bytes" />
+  </a>
+  <a href="https://git.io/streak-stats">
+    <img height="200" src="https://streak-stats.demolab.com?user=baltej223&theme=tokyonight-duo" alt="GitHub Streak" />
+  </a>
+</div>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?theme=onedark&username=baltej223" alt="baltej223" /></a> </p>
 
