@@ -8,7 +8,6 @@
 - 🌱 I’m currently learning **DevOps, AI/ML, Cybersecurity and WebDev**
 - 💬 Ask me about **React, Next, JS, python, web developement**
 - ✨ take a look at my repos - [Click](https://github.com/baltej223?tab=repositories)
-- Take a look at my Docs: [click it](https://docs-phi-rust.vercel.app/)
 
 <!--![](https://komarev.com/ghpvc/?username=baltej223&color=blueviolet)--> <!--https://github.com/antonkomarev/github-profile-views-counter-->
 <!--started on 19/07/24-->
