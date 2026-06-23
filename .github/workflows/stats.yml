@@ -1,0 +1,100 @@
+name: LOC Statistics
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  count-lines:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout stats repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Calculate statistics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: baltej223
+          AUTHOR: baltej963@gmail.com
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          mkdir -p repos stats
+          cd repos
+
+          gh repo list "$USERNAME" \
+            --limit 300 \
+            --json nameWithOwner,isFork,isArchived \
+            --jq '.[] | select(.isFork==false and .isArchived==false) | .nameWithOwner' \
+          | while read -r repo; do
+              echo "Cloning $repo"
+              git clone --quiet --filter=blob:none "https://github.com/$repo.git"
+            done
+
+          TOTAL_ADDED=0
+          TOTAL_DELETED=0
+          TOTAL_COMMITS=0
+          TOTAL_REPOS=0
+
+          for repo in */ ; do
+            [ -d "$repo/.git" ] || continue
+            TOTAL_REPOS=$((TOTAL_REPOS + 1))
+
+            cd "$repo"
+
+            COMMITS=$(git rev-list --all --count)
+
+            STATS=$(git log \
+              --author="$AUTHOR" \
+              --pretty=tformat: \
+              --numstat)
+
+            ADDED=$(echo "$STATS" | awk '$1 ~ /^[0-9]+$/ {sum += $1} END {print sum+0}')
+            DELETED=$(echo "$STATS" | awk '$2 ~ /^[0-9]+$/ {sum += $2} END {print sum+0}')
+
+            TOTAL_ADDED=$((TOTAL_ADDED + ADDED))
+            TOTAL_DELETED=$((TOTAL_DELETED + DELETED))
+            TOTAL_COMMITS=$((TOTAL_COMMITS + COMMITS))
+
+            cd ..
+          done
+
+          NET=$((TOTAL_ADDED - TOTAL_DELETED))
+
+          cd ..
+          cat > stats/loc_report.md << EOF
+          # GitHub Lifetime Coding Stats
+
+          - Repositories: $TOTAL_REPOS
+          - Commits: $TOTAL_COMMITS
+          - Lines Added: $TOTAL_ADDED
+          - Lines Deleted: $TOTAL_DELETED
+          - Net Lines: $NET
+
+          Generated on $(date -u)
+          EOF
+
+          echo "Repositories: $TOTAL_REPOS"
+          echo "Commits: $TOTAL_COMMITS"
+          echo "Added: $TOTAL_ADDED"
+          echo "Deleted: $TOTAL_DELETED"
+          echo "Net: $NET"
+
+      - name: Commit report
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add stats/loc_report.md
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update LOC statistics"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
