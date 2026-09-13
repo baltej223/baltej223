@@ -89,7 +89,7 @@
 
 <div align="center">
   <a href="https://github.com/baltej223/github-readme-stats">
-    <img height="200" src="https://github-readme-stats-eta-kohl-56.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&layout=pie&theme=onedark&exclude_repo=patient_management,iot_ccs_project&langs_count=8&stats_format=bytes" />
+    <img height="200" src="https://github-readme-stats-eta-kohl-56.vercel.app/api/top-langs?username=baltej223&show_icons=true&locale=en&theme=onedark&exclude_repo=patient_management,iot_ccs_project&langs_count=8&stats_format=bytes" />
   </a>
   <a href="https://git.io/streak-stats">
     <img height="200" src="https://streak-stats.demolab.com?user=baltej223&theme=tokyonight-duo" alt="GitHub Streak" />
