@@ -26,6 +26,9 @@
 </a>
 <a href="https://posts.baltej.me/">
     <img src="https://baltej.me/icon.png" height="40" />
+</a>
+<a href="https://medium.com/@baltej223/">
+    <img src="https://medium.com/favicon.ico" height="40" />
 </a></p>
 
 
